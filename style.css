@@ -1,8 +1,15 @@
 html {
-    background-color: black;
+
     font-family: "Niramit", sans-serif;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* 
+    background-color: black;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,2,53,1) 20%, rgba(4,3,64,1) 33%, rgba(5,5,78,1) 50%, rgba(6,6,90,1) 64%, rgba(7,7,101,1) 77%, rgba(8,8,111,1) 89%, rgba(9,9,121,1) 100%);
+    */
 }
 
 h1 {
