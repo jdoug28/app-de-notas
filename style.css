@@ -1,6 +1,50 @@
-.input-box{
+html {
+    background-color: black;
+    font-family: "Niramit", sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,2,53,1) 20%, rgba(4,3,64,1) 33%, rgba(5,5,78,1) 50%, rgba(6,6,90,1) 64%, rgba(7,7,101,1) 77%, rgba(8,8,111,1) 89%, rgba(9,9,121,1) 100%);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+#input-box {
     position: relative;
     width: 100%;
     max-width: 500px;
-    background-color: aquamarine;
+    background-color: white;
+    border: 0;
+    color: black;
+    border-radius: 2%;
+    padding: 1%;
+
+}
+p {
+    margin-left: 5%;
+    color: white;
+    text-align: left;
+    max-width: 500px;
+    word-wrap: break-word;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    padding: 1%;
+
+}
+.container-notes {
+    margin-bottom: 1%;
+}
+button {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: "Niramit", sans-serif;
+    color: red;
+}
+#btnAdd {
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    color: green;
 }
