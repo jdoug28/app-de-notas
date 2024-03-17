@@ -34,15 +34,18 @@ h1 {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#btnAdd:hover {
-    background-color: #0056b3;
+button {
+    background-color: rgb(34, 60, 206);
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(4, 4, 194);
 }
 
 h1 {
@@ -78,13 +81,8 @@ p {
     margin-left: 1px;
     width: 546px;
     padding: 5px;
-    background-color: #007bff;
     color: #fff;
-}
-
-.btnExcluir:hover {
-    background-color: #0056b3;
-    cursor: pointer;
+    border: none;
 }
 
 .notaCriada {
