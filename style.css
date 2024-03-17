@@ -4,10 +4,47 @@ html {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,2,53,1) 20%, rgba(4,3,64,1) 33%, rgba(5,5,78,1) 50%, rgba(6,6,90,1) 64%, rgba(7,7,101,1) 77%, rgba(8,8,111,1) 89%, rgba(9,9,121,1) 100%);
 }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+#input-box {
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+
+#btnAdd {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAdd:hover {
+    background-color: #0056b3;
+}
+
 h1 {
     color: white;
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
+
 #input-box {
     position: relative;
     width: 100%;
@@ -15,36 +52,40 @@ h1 {
     background-color: white;
     border: 0;
     color: black;
-    border-radius: 2%;
     padding: 1%;
-
 }
+
 p {
-    margin-left: 5%;
+    margin-left: 7%;
     color: white;
     text-align: left;
     max-width: 500px;
     word-wrap: break-word;
     border-style: solid;
-    border-color: aqua;
-    border-width: 1px;
-    padding: 1%;
+    border-color: #007bff;;
+    border-width: 2px;
+    padding: 20px;
+}
 
+#btnExcluir {
+    margin-left: 1px;
+    width: 546px;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
 }
-.container-notes {
-    margin-bottom: 1%;
+
+#btnExcluir:hover {
+    background-color: #0056b3;
+    cursor: pointer;
 }
-button {
-    margin-left: 2%;
-    margin-top: 2%;
-    margin-bottom: 4%;
-    font-family: "Niramit", sans-serif;
-    color: red;
+
+.notaCriada {
+    margin: auto;
+    font-size: small;
 }
-#btnAdd {
-    text-align: left;
-    margin-top: 0%;
-    margin-left: 5%;
-    margin-bottom: 1%;
-    color: green;
+
+.divNotaCriada {
+    text-align: center;
+    padding: 10px;
 }
