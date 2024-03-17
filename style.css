@@ -67,7 +67,7 @@ p {
     padding: 20px;
 }
 
-#btnExcluir {
+.btnExcluir {
     margin-left: 1px;
     width: 546px;
     padding: 5px;
@@ -75,7 +75,7 @@ p {
     color: #fff;
 }
 
-#btnExcluir:hover {
+.btnExcluir:hover {
     background-color: #0056b3;
     cursor: pointer;
 }
